@@ -1,0 +1,142 @@
+/* Reset Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 400;
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #ccc;
+}
+
+/* Header Styles */
+.hero {
+  background-image: url('batman-background.jpg');
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+
+.hero .profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+  border: 2px solid #fff;
+}
+
+.hero h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.hero h2 {
+  font-size: 1.5em;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+/* About Section Styles */
+.about {
+  padding: 40px;
+  background-color: #000;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(255, 255, 255, 0.1);
+}
+
+.about h2 {
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.about p {
+  line-height: 1.6;
+}
+
+/* Services Section Styles */
+.services {
+  padding: 40px;
+  background-color: #000;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(255, 255, 255, 0.1);
+}
+
+.services h2 {
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.services ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.services li {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+/* Footer Styles */
+footer {
+  text-align: center;
+  padding: 20px 0;
+  color: #aaa;
+}
+
+/* Dark Mode */
+.dark-mode {
+  background-color: #000;
+  color: #fff;
+}
+
+.dark-mode .container {
+  background-color: #000;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 6px rgba(255, 255, 255, 0.1);
+}
+
+.dark-mode a {
+  color: #fff;
+}
+
+.dark-mode a:hover {
+  color: #ccc;
+}
+
+.dark-mode .hero {
+  background-color: #000;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero {
+    height: 300px;
+  }
+}
